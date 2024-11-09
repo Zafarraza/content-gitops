@@ -1,6 +1,15 @@
+---
 apiVersion: v1
 kind: Namespace
 metadata:
   labels:
-    name: lasample
-  name: lasample
+    name: lasample-qa
+  name: lasample-qa
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: lasample-prod
+  name: lasample-prod
+---
